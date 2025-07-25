@@ -19,7 +19,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 40px 20px;
-  margin-top: 80px; /* Sayfa daha aşağıdan başlasın */
+  margin-top: 100px; /* Sayfa daha aşağıdan başlasın */
 }
 
 /* Form stili */
@@ -81,7 +81,7 @@ fieldset {
   font-weight: 600;
   color: #2e2f42;
   padding: 0 8px;
-  margin-bottom: 8px; /* Altına boşluk ekle */
+  margin-bottom: 8px;
 }
 
 .radio-option {

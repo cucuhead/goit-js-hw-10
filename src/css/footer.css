@@ -12,13 +12,13 @@
   text-decoration: none;
   padding: 4px 8px;
   color: black;
-  z-index: 1; /* Ekledik */
+  z-index: 1;
 }
 
 .footer-link::before {
   content: '';
   position: absolute;
-  bottom: 0; /* 6% yerine sabit alt */
+  bottom: 0;
   left: 50%;
   transform: translateX(-50%) skewX(-12deg);
   z-index: -1;
@@ -26,5 +26,5 @@
   height: 40%; /* Geniş alan */
   background-color: #41d1ff;
   transition: 200ms ease;
-  border-radius: 2px; /* Ekstra güzellik istersen */
+  border-radius: 2px;
 }
